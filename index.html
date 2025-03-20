@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twister Spinner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Twister Spinner</h1>
+        
+        <div class="game-area">
+            <div class="spinner-container">
+                <div class="twister-board">
+                    <!-- Fixed colored dots will be added via JavaScript -->
+                </div>
+                <div class="spinner-needle"></div>
+                <div class="quadrant-label label-right-hand">Right Hand</div>
+                <div class="quadrant-label label-left-foot">Left Foot</div>
+                <div class="quadrant-label label-left-hand">Left Hand</div>
+                <div class="quadrant-label label-right-foot">Right Foot</div>
+            </div>
+
+            <div class="timer-display">
+                <span id="timer">Ready!</span>
+            </div>
+
+            <div class="controls">
+                <button id="startButton" class="button">Start Game</button>
+                <button id="endButton" class="button">End Game</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
